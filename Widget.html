@@ -1,0 +1,12 @@
+<div class="jimu-r-row mybody">
+  <h3>裁剪统计</h3>
+  <p>上传包含Shapefile的zip格式压缩包指定分析范围。</p>
+</br>
+  <form data-dojo-attach-point="uploadForm"  method="post" enctype="multipart/form-data">
+    <input type="file" name="file"  size="15" />
+  </form>
+  <br/>
+  <button data-dojo-attach-event="onclick:uploadFile">统计分析</button>
+  <br/>
+  <div data-dojo-attach-point="myChart" class="MyChart" />
+</div>

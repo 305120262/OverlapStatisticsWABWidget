@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://luwlesripc:3344/webappviewer/?config=sample-configs/myconfig.json",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true
+        },
+        {
+            "name": "Launch index.html (without sourcemaps)",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/Widget.html"
+        },
+    ]
+}

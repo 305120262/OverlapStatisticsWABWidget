@@ -1,0 +1,17 @@
+.BaseWidget h3 {
+  font-size: 1.2em;
+}
+.BaseWidget h3, p {
+  margin-top: 0;
+}
+/* add additional custom styles */
+.MyChart {
+	width: 100%;
+	height:90%;
+	min-width: 200px;
+	min-height: 200px;
+}
+.mybody {
+	height: 100%;
+	overflow:auto;
+}
